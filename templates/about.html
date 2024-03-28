@@ -1,0 +1,25 @@
+{% extends "layout.html"%} {% block content %}
+
+<!-- About Section -->
+<section class="about">
+  <div class="home-img about-img">
+    <img src="{{url_for('static',filename='./images/juju.jpg')}}" />
+  </div>
+
+  <div class="about-text">
+    <h2>About <span class="red">Me</span></h2>
+    <h4>Web Developer</h4>
+    <p>
+      I have just started my journey as a Web developer. I don't have much
+      experience but I am enhancing my skills by building projects. I have much
+      experiencein video editing and logo designing. I have made different logos
+      for Esports players. Currently, I am learning about Python for the
+      backend. I like to play Football and different online games like PUBG
+      during my free time. But most of the time I love coding and learn new
+      concepts of coding and Mathematics.
+    </p>
+    <a href="#" class="btn">More About Me</a>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "layout.html"%} {% block content %}
+
+<section class="contact" id="contact">
+  <div class="contact-text">
+    <h2>Contact <span class="red">Me</span></h2>
+    <h1>Let's work together</h1>
+    <p>
+      If you have any questions, need help with a project or just want to say
+      hi, feel free to get in touch! I am always open Feel free to contact me
+      for any questions, Feel free to contact me for any project, Feel free to
+      send me a message.
+    </p>
+    <div class="contact-list">
+      <li><i class="bx bx-send"></i>deepakkdas77@gmail.com</li>
+      <li><i class="bx bxs-phone"></i>9823832716</li>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+      <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+      <a href="#"><i class="bx bxl-facebook-square"></i></a>
+      <a href="#"><i class="bx bxl-github"></i></a>
+    </div>
+  </div>
+  <div class="contact-form">
+    <form action="">
+      <input type="text" placeholder="Enter Your Name" required />
+      <input type="text" placeholder="Enter Your Address" required />
+      <input type="number" placeholder="Enter Your Phone Number" />
+      <input type="email" placeholder="Enter Your Email" required />
+      <textarea cols="40" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Submit" class="send" />
+    </form>
+  </div>
+</section>
+
+{% endblock %}

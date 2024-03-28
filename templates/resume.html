@@ -1,0 +1,54 @@
+{% extends "layout.html"%} {% block content %}
+
+<div class="container">
+   
+  <div class="head">
+    <h1>Resu<span class="red">me</span></h1>
+    <div class="image-area">
+      <img src="{{url_for('static',filename='./images/juju.jpg')}}" />
+    </div>
+    <h1>Deepak Das</h1>
+    <h3>Web developer</h3>
+  </div>
+
+  <div class="main">
+    <div class="left">
+      <h2>Personal Information</h2>
+      <p><strong>Name:</strong> Deepak Das</p>
+      <p><strong>Email:</strong> deepakkdas77@gmail.com</p>
+      <p><strong>Address:</strong> Basundhara, Kathmandu</p>
+      <p><strong>Phone:</strong> 9823832716</p>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>JAVA</li>
+        <li>Python</li>
+      </ul>
+      <h2>Education</h2>
+      <h3>+2 Science</h3>
+      <p>Kathmandu Model College, 2077-2079</p>
+      <h3>Bachlore In Information Technology</h3>
+      <p>Texas College Of Management & IT</p>
+    </div>
+    <div class="right">
+      <h2>Interest</h2>
+      <ul>
+        <li>Mathematics</li>
+        <li>Coding</li>
+        <li>Football</li>
+        <li>Playing Games</li>
+      </ul>
+      <h2>Work Experience</h2>
+      <h3>Basundhara Tution</h3>
+      <p><strong>Position:</strong> Mathematics Tutor</p>
+      <p><strong>Duration:</strong> 4 Months</p>
+      <p><strong>Location:</strong> Basundhara, Kathmandu</p>
+      <h2>Projects</h2>
+      <p>Resturant Website</p>
+      <p>Personal Portfolio</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
